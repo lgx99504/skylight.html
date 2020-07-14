@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>Skylight丨Sign Up</title>
-        <!-- <style>
-            a:link {text-decoration:none;}    /* 未被访问的链接 */
+         <style>
+        a:link {text-decoration:none;}    /* 未被访问的链接 */
         a:visited {text-decoration:none;} /* 已被访问的链接 */
         a:hover {text-decoration:none;}   /* 鼠标指针移动到链接上 */
         a:active {text-decoration:none;}  /* 正在被点击的链接 */
@@ -12,7 +12,7 @@
         a.one:visited {background-color: transparent;}	/* 已被访问的链接 */
         a.one:hover {background-color: #00adc4;}	/* 鼠标指针移动到链接上 */
         a.one:active {background-color: transparent;}	
-        </style>-->
+        </style>
 <style type="text/css">
 *{
     margin: 0;
@@ -54,7 +54,7 @@
     p.title 
     {
         font-weight: 900;
-        font-size: xx-large;
+        font-size: x-large;
         letter-spacing: -2px;
         color:white;
         float: left;
@@ -77,10 +77,10 @@
     {
         text-align: center;
         width: 100%;
-        padding-bottom: 90px;
-        margin: -40px;
-        margin-top: -30px;
         display: inline-block;
+        position: relative;
+        bottom: 35px;
+        
     }
     a.menu1 
     {
@@ -107,12 +107,58 @@
     li
     {
         display: inline;
-        font-size: larger;
+        font-size:initial;
         }
         p.foot 
         {
             font-size: larger;
             float: right;
+            color: black;
+        }
+        div.center
+        {
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            left: 26%;
+            right: 26%;
+            border:0px solid black;
+            border-radius: 4px;
+            background-color: rgb(255, 255, 255);
+            box-shadow:0px 0px 10px rgb(206, 206, 206);
+            
+        }
+        h2.header 
+        {
+            font-family: AvenirNextPro, Helvetica, Arial, sans-serif;
+            font-weight: 900;
+            font-size: 250%;
+            letter-spacing: -3px;
+            text-align: center;
+            margin-bottom: 0.3em;
+            margin-top: 1.8em;
+        }
+        p.center 
+        {
+            text-align: center;
+            font-weight: 900;
+            margin-top: 10px;
+            margin-bottom: 20px;
+
+        }
+        h3.center 
+        {
+         text-align: center;
+         border-radius: 30px;
+         background-color: rgb(7, 179, 170);
+         padding: 15px;
+         margin-left: 30%;
+         margin-right: 30%;
+         color: white;
+        }
+        div.hrline
+        {
+            text-align: center;
         }
 </style>
     </head>
@@ -132,9 +178,20 @@
     
     </div>
     </div>
-
     </body>
-    <body style="background-color: rgb(143, 253, 253);">
+    <body>
+    <div class="center">       
+            <h2 class="header">START YOUR FREE MONTH</h2>  
+            <p class="center">1. Agree to the Skylight terms</p>
+            <form style="text-align: center;font-size: 30%;color: gray;">
+                <input type="checkbox" name="yes/no" />        &nbsp;&nbsp;You agree to the terms of service and privacy statement
+            </form>
+            <p class="center">2. Choose a signup method</p>
+            <a href="https://www.skylight.io/signup"><h3 class="center">SIGN UP WITH GITHUB</h3></a>
+            <br /><br />
+    </div>
+    </body>
+    <body style="background-color: rgb(234, 248, 248);">
         <div class="no2">
         <div class="footer">
             <a href="https://www.baidu.com"><p class="foot">© 2012-2020 Tilde Inc.</p></a>
@@ -147,6 +204,6 @@
                 <li><a class="foot1" href="https://www.baidu.com">Cookies</a></li>
             </ul>
     </div>
-</div>
+    </div>
     </body>
 </html>
