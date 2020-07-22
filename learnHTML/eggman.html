@@ -2,72 +2,589 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>EggManTV</title>
+        <title>蛋人网-精通你的所学</title>
+        <base target="_blank" />
         <style>
-            input,button,select,textarea
+        input,button,select,textarea{outline: none；}
+        a
+        {
+            text-decoration: none;
+            
+        }
+        </style>
+        <style type="text/css">
+        div.header1
+        {
+         max-width: 1152px;
+         margin: auto;
+         padding: 10px;
+        }
+        input.zhuce 
+        {
+            color: white;
+            border-radius: 5px;
+            background-color: #0288d1;
+            float:right;
+            padding: 7px 30px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            border: 0px;
+            box-shadow: 0 0 15px rgba(0,139,243,0.5);
+            margin-top: 16px;
+            cursor: pointer;
+            margin-left: 10px;
+            outline: none
+        }
+        input.denglu 
+        {
+            color: black;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            background-color: transparent;
+            margin-top: 16px;
+            float:right;
+            padding: 7px 30px;
+            cursor: pointer;
+            margin-left: 10px;
+            outline: none
+        }
+        input.sousuo 
             {
-                outline: none;
+             padding: 8px 12px;
+             padding-right: 35px;
+             margin-top: 16px;
+             border-radius: 4px;
+             border: 0px;
+             background-color: rgba(0,0,0,0.04);
+             color: #707070;
+             font-weight: 500;
+             font-size: 14px;
+             float: right;
+             outline: none
             }
-            div.heder
-            {
-                width: 80%;
-               
-                margin: auto;
-                padding: 10px;
-                
-            }
-            input.zhuce 
-            {
-                background-color: rgb(10, 130, 228);
-                color: white;
-                border: none;
-                text-align: center;
-                height: 35px;
-                width: 85px;
-                float: right;
-                margin-right: 5px;
-                position: relative;
-                top: 8px;
-                cursor: pointer;
-                cursor: pointer;
-            }
-            input.dd 
-            {
-                 
-                 color: rgb(8, 0, 0);
-                 border: none;
-                 text-align: center;
-                 height: 35px;
-                 width: 85px;
-                 float: right;
-                 margin-right: 5px;
-                 position: relative;
-                 top: 8px;
-                 cursor: pointer;
-            }
-            input.sousuo 
-            {
-                background-color: rgb(197, 197, 197);
-                color: rgb(8, 0, 0);
-                border: none;
-                height: 35px;
-                width: 120px;
-                float: right;
-                margin-right: 5px;
-                position: relative;
-                top: 8px;
-            }
+        div.header2
+        {
+            text-align: center;
+            max-width: 1152px;
+            margin: auto;
+            padding: 10px;
+            color: black;
+        }
+        a.header 
+        {
+            color: black;
+            display: inline-block;
+            padding: 10px;
+            
+        }
+        a.header:hover
+        {
+            border-bottom: 5px solid #0288d1 ;
+            color: #0288d1;
+        }
+        div.yonghu
+        {
+            width: 300px;
+            border: 1px solid #e6eaee;
+            text-align: center;
+        }
+        div.gundong
+        {
+            max-width: 1152px;
+            padding-top: 70px;
+            padding-bottom: 90px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin: auto;
+            border: 0px solid black;
+        }
+        div.container
+        {
+            max-width: 1152px;
+            
+            margin: auto;
+            
+            margin-bottom: 10px;
+        }
+        a.container 
+        {
+            float: right;
+            color: gray;
+            display: block;
+            margin-top: 25px;
+        }
+        h2.container 
+        {
+            color: #354052;
+            display: inline-block;
+            font-size: 32px;
+        }
+        div.s-inner
+        {
+            max-width: 338px;
+            border: 1px solid rgb(233, 233, 233);
+            height: 180px;
+            display: block;
+            padding: 15px;
+            float: left;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        div.middle
+        {
+            width: 510px;
+            border: 1px solid rgb(233, 233, 233);
+            height: 350px;
+            display: block;
+            padding: 15px;
+            float: left;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        div.last
+        {
+            width: 250px;
+            margin: auto;
+            border: 1px solid rgb(233, 233, 233);
+            height: 465px;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            float: left;
+            margin-left: 21px;
+        }
+        div.s-inner2 
+        {
+            border: 0px solid black;
+            width: 336px;
+            height: 63px;
+            overflow: hidden;
+        }
+        img.s-inner1
+        {
+            position: relative;
+            
+            bottom: 30px;
+            
+            right: 20px;
+            width: 65px;
+            border: 0em;
+            background-color: rgb(78, 78, 223);
+            border-radius: 5px;
+            float: right;
+        }
+        img.s-inner2 
+        {
+            background-color: #8dc2e4;
+            border: 0;
+            border-radius: 3px;
+            margin-top: 11px;
+            float: right;
+            width: 20px;
+            margin-left: 10px;
+        }
+        p.s-inner
+        {
+            font-size: small;
+            color: #707070;
+            display: inline-block;  
+        }
+        div.recommend
+        {
+            border: 1px solid black;
+            width: 490px;
+            height: 250px;
+            padding: 10px;
+        }
+        table.recommend
+        {
+            border: 0px solid black;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td,th
+        {
+            border-left: 0px solid black;
+            border-right: 0px solid black;
+            border-top: 1px solid rgb(199, 199, 199);
+            height: 36px;
+            padding: 10px;
+            font-size: small;
+        }
+        p.price 
+        {
+            color: #0288d1;
+            font-size: 32px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        p.free 
+        {
+            color: rgb(233, 233, 233);
+        }
+        input.subscribe1 
+        {
+            border: 1px solid #707070;
+            border-radius: 4px;
+            padding: 10px 30px;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+            outline: none;
+        }
+        input.subscribe2
+        {
+            border: 1px solid #707070;
+            border-radius: 4px;
+            padding: 10px 30px;
+            background-color: #0288d1;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            outline: none;
+        }
+        div.comment
+        {
+            max-width: 300px;
+            float: left;
+            height: 300px;
+            display: block;
+            padding: 0px 40px;
+            border-radius: 5px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        div.footer1 
+        {
+            margin-top: 300px;
+            background-color: #0288d1;
+            padding: 30px 50px;
+            text-align: center;
+            
+        }
+        div.footer2 
+        {
+            max-width: 1152px;
+            margin: auto;
+            height: 300px;
+        }
+        div.root
+        {
+            max-width: 280px;
+            border: 0px solid white;
+            text-align: left;
+            outline: none;
+            cursor: pointer;
+            padding: 0 100px;
+            float: left;
+            
+        }
+        p.root1 
+        {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 23px;
+            margin-top: 50px;
+            display: block;
+        }
+        p.root2 
+        {
+            color: rgb(168, 168, 168);
+            font-size: 10px;
+            margin-bottom: 23px;
+            display: block;
+        }
+        div.root3 
+        {
+            color: rgb(168, 168, 168);
+            font-size: 10px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
         </style>
     </head>
-    <body>
-        <div class="heder" style="text-align: left;">
-        <a href="http://eggman.tv"><img style="height:50px;width: 130px;" src="./eggman1.jpg" /></a>
-        <a href="http://baidu.com"><input type="button" class="zhuce" value="注册" /></a>
-        <a href="http://baidu.com"><input type="button" class="dd" value="登录" /></a>
-        <a href="http://baidu.com"><input type="button" class="dd" value="订阅" /></a>
-        <input type="text" class="sousuo" placeholder="搜索"  />
+    <body style="margin: 0em;padding: 0em;">
+        <div class="header1">
+        <a href="http://eggman.tv"><img src="./eggman.jpg" /></a>
+        <a href="http://www.baidu.com"><input type="button" class="zhuce" value="注册" /></a>
+        <a href="http://www.baidu.com"><input type="button" class="denglu" value="登录" /></a>
+        <a href="http://www.baidu.com"><input type="button" class="denglu" value="订阅" /></a>
+        <input type="text" class="sousuo" placeholder="搜索" /></a>
         </div>
-        <hr style="width: 80%;" />
-
+        <div style="max-width: 1152px;border:0px;height: 1px;margin: auto;background-color: #e6eaee;"></div>
+        <div class="header2">
+        <a class= "header" href="http://www.baidu.com">全部</a>
+        <a class= "header" href="http://www.baidu.com">Ruby</a>
+        <a class= "header" href="http://www.baidu.com">Ruby On rails</a>
+        <a class= "header" href="http://www.baidu.com">React Native</a>
+        <a class= "header" href="http://www.baidu.com">Web</a>
+        <a class= "header" href="http://www.baidu.com">Python</a>
+        <a class= "header" href="http://www.baidu.com">Linux</a>
+        </div>
+        <div  style="background-color:#0288d1 ;">
+        <div class="gundong">
+        <img style="background-color: transparent;width: 150px;height: 150px;float: left;" src="./zuanshi.jpg" />
+        <a href="http://www.baidu.com"><h1 style="font-size: 36px;font-weight: 500;color: white;display: inline-block;line-height: 30px;margin-top: 0;margin-bottom: 20px;">Ruby元编程实战</h1></a>
+        <p style="color: white;margin-bottom: 40px;">Ruby易于学习难于精通主要就在于Ruby动态的特性，强大的功能让我们在遇到具体需求时感觉无从下手，可选择的思路太多，这个专题我们就来从具体需求场景出发，来讲述一下不同的场景用什么样的方式来设计你的类和模块。
+        </p>
+        <a href="http://www.baidu.com"><input class="zhuce" style="background-color:white;color:#0288d1 ;" type="button" value="查看" /></a>
+        </div>
+        </div>
+        <div class="container">
+        <a class="container" href="HTTP://www.baidu.com">查看更多></a>
+        <h2 class="container">视频专题</h2>  
+        </div>
+        <div style="max-width: 1152px;margin: auto;">
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" src="./zhizhen1.jpg" />
+                <p>微信小程序开发实战<br /> &nbsp;<br /><div class="s-inner2">
+                <p class="s-inner">从实际角度出发全面讲述小程序开发的各个方面，从开发到经验分享。该课程以蛋人网小程序为实战。</p></div></p></a><p class="s-inner">中级</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+            </div>
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" src="./zhizhen1.jpg" />
+                <p>不到一分钟<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">[不到一分钟]是个大杂烩专题，内容包括前台，后台，系统运维，开发工具等等内容，不限语言和框架。</p></div></p></a>
+                <p class="s-inner">中级</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./update.jpg" /></a>
+            </div>
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" style="background-color: rgb(255, 145, 2);" src="./lu1.jpg" />
+                <p>Grape+Rails实战<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner" style="overflow: visible;">Grape作为Ruby领域知名的轻量级API开发框架，这个专题会给大家全面讲述Grape以及API开发方方面面的内容。</p></div></p></a>
+                <p class="s-inner">中级</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+            </div>
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" style="background-color: rgb(133, 80, 255);"src="./Python.jpg" />
+                <p>Python基础<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">全面讲述Python语言所有基础内容。</p></div></p></a>
+                <p class="s-inner">入门</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+            </div>
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" style="background-color: #0288d1;" src="./zuanshi1.jpg" />
+                <p>Ruby元编程实战<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">Ruby易于学习难于精通主要就在于Ruby动态的特性，强大的功能让我们在遇到具体需求时感觉无从下手，可选择的思路太多，这个专题我们就来从具体需求场景出发，来讲述一下不同的场景用什么样的方式来设计你的类和模块。</p></div></p></a>
+                <p class="s-inner">高级</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+            </div>
+            <div class="s-inner">
+                <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" style="background-color: #0288d1;" src="./zuanshi1.jpg" />
+                <p>Ruby常用Gems学习<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">在这个系列课程中，将会不定期更新一些在Ruby和Rails项目中常用的或者主流Gem使用的教程。</p></div></p></a>
+                <p class="s-inner">中级</p>
+                <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+            </div>
+        </div>
+        <div class="container">
+            <a class="container" href="HTTP://www.baidu.com">查看更多></a>
+            <h2 class="container">文章专题</h2>  
+            </div>
+            <div style="max-width: 1152px;margin: auto;">
+                <div class="s-inner">
+                    <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" src="./zhizhen1.jpg" />
+                    <p>日志系统：Kafka<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">如何构建一个现代化的日志系统？该专题会介绍如何构建一个日志系统以及里面所涉及的技术和开源框架。由于牵涉甚广，不过于纠缠软件的各种使用细节，但求能从背后原理出发清楚为什么，如何做出合适的选择。</p></div></p></a>
+                    <p class="s-inner">中级</p>
+                    <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+                    <a href="http://www.baidu.com"><img class="s-inner2" src="./update.jpg" /></a>
+                </div>
+                <div class="s-inner">
+                    <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" style="background-color: rgb(255, 145, 2);" src="./lu1.jpg" />
+                    <p>Rails 5.1 System Test<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner" style="overflow: visible;">Rails 5.1 中引入了 System Tests , 这个专题会介绍一下如何写一个简单的System Test，如何通过读源码找到缺失的文档，System Tests清理测试数据的原理，以及什么时候应该使用System Tests和如何使用System Tests。</p></div></p></a>
+                    <p class="s-inner">中级</p>
+                    <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+                </div>
+                <div class="s-inner">
+                    <a style="color: black;" href="http://www.baidu.com"><img class="s-inner1" src="./zhizhen1.jpg" />
+                    <p>Web Push Notifications实战<br /> &nbsp;<br /><div class="s-inner2"><p class="s-inner">Push Notification（通知推送）在手机端大家都已经非常熟悉了，而Web端基于网页的通知推送现在也慢慢被很多网站应用，这个专题中我们来研究和实现一下Web端的通知推送。该专题同时有[视频]版本，请在视频专题下面进行查找。</p></div></p></a>
+                    <p class="s-inner">中级</p>
+                    <a href="http://www.baidu.com"><img class="s-inner2" src="./vedio.jpg" /></a>
+                    <a href="http://www.baidu.com"><img class="s-inner2" src="./update.jpg" /></a>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="container">推荐内容</h2>  
+                </div>
+                <div style="max-width: 1152px;margin: auto;">
+                <div class="middle">
+                <img class="s-inner1" src="./zhizhen1.jpg" />
+                <p style="font-size: 25px;">Web</p>
+                
+                <table class="recommend">
+                    <tr>
+                        <td style="width: 45%;border-top: 0em;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./play.svg" />&nbsp; Rails日志中总请求时间为什么不等于view+db？</a></div></td>
+                        <td style="width: 45%;border-top: 0em;"><a href="http://www.baidu.com" style="color: #0288d1;">不到一分钟</a></td>
+                        <td style="width: 10%;border-top: 0em;">00:52</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./read.svg" /> &nbsp;Kafkaj基本的Producer和Consumer API</a></div></td>
+                        <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">日志系统：Kafka</a></td>
+                        <td style="width: 10%;;">15:57</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./read.svg" /> &nbsp;Kafka的基本介绍，设计出发点和消息语义</a></div></td>
+                        <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">日志系统：Kafka</a></td>
+                        <td style="width: 10%;;">10:00</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./read.svg" /> &nbsp;聊聊Log</a></div></td>
+                        <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">日志系统：Kafka</a></td>
+                        <td style="width: 10%;;">07:23</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./play.svg" /> &nbsp;01 Web Push Notifications技术要求和原理</a></div></td>
+                        <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">Web Push Notifications实战</a></td>
+                        <td style="width: 10%;;">08:47</td>
+                    </tr>
+                </table>
+                </div>
+                <div class="middle">
+                    <img class="s-inner1" style="background-color: rgb(247, 91, 35);" src="./lu1.jpg" />
+                    <p style="font-size: 25px;">Ruby on Rails</p>
+                    
+                    <table class="recommend">
+                        <tr>
+                            <td style="width: 45%;border-top: 0em;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./play.svg" /> &nbsp;大型项目模块化</a></div></td>
+                            <td style="width: 45%;border-top: 0em;"><a href="http://www.baidu.com" style="color: #0288d1;">Grape+Rails实战</a></td>
+                            <td style="width: 10%;border-top: 0em;">00:52</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./play.svg" /> &nbsp;Grap快速上手</a></div></td>
+                            <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">Grape+Rails实战</a></td>
+                            <td style="width: 10%;;">15:57</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./read.svg" /> &nbsp;Rails with Webpack：深度使用和前端代码组织</a></div></td>
+                            <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">从配置到使用和部署</a></td>
+                            <td style="width: 10%;;">10:00</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./read.svg" />&nbsp; Rails 5.1 System Tests</a></div></td>
+                            <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">Rails 5.1 System Tests</a></td>
+                            <td style="width: 10%;;">07:23</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 45%;"><div style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width: 230px;"><a href="Http://www.baidu.com" style="color: black;"><img style="float: left;" src="./play.svg" /> &nbsp;02 设置RSpect和Capybara</a></div></td>
+                            <td style="width: 45%;"><a href="http://www.baidu.com" style="color: #0288d1;">TDD实战</a></td>
+                            <td style="width: 10%;;">08:47</td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+                <div class="container" style="text-align: center;margin-bottom: 50px;">
+                    <h2 class="container" style="font-size: 32px;font-weight: 200;margin-bottom: 80px;margin-top: 80px;">订阅价格</h2>  
+                    </div>
+                    <div class="container">
+                    <div class="last">
+                        <p style="padding: 10px;margin-bottom: 0em;">免费订阅</p>
+                        <p class="price">Free</p>
+                        <div style="border: 0em;width: 220px;border-top: 1px solid rgb(233, 233, 233);margin: auto;margin-bottom: 15px;"></div>
+                        <p>观看免费内容</p>
+                        <p class="free">观看付费内容</p>
+                        <p class="free">源码以及PPT访问权限</p>
+                        <p class="free">课件视频下载</p>
+                        <p class="free">Stack专属频道技术支持</p>
+                        <p class="free">12次远程技术指导（1小时/次）</p>
+                        <a href="http://www.baidu.com"><input class="subscribe1" type="button" value="订阅" /></a>
+                    </div>
+                    <div class="last">
+                        <p style="padding: 10px;margin-bottom: 0em;">季度订阅</p>
+                        <p class="price">198元/季度</p>
+                        <div style="border: 0em;width: 220px;border-top: 1px solid rgb(233, 233, 233);margin: auto;margin-bottom: 15px;"></div>
+                        <p>观看免费内容</p>
+                        <p >观看付费内容</p>
+                        <p >源码以及PPT访问权限</p>
+                        <p class="free">课件视频下载</p>
+                        <p class="free">Stack专属频道技术支持</p>
+                        <p class="free">12次远程技术指导（1小时/次）</p>
+                        <a href="http://www.baidu.com"><input class="subscribe1" type="button" value="订阅" /></a>
+                    </div>
+                    <div class="last" style="height: 500px;position: relative;top: -33px;box-shadow:  4px 4px #dddddd;">
+                        <img style="float: right;" src="./star.svg" />
+                        <p style="padding: 10px;margin-bottom: 0em;">年度订阅</p>
+                        <p style="font-size: small;color: #0288d1;">年度订阅[节省¥194]</p>
+                        <p class="price">598元/年</p>
+                        <div style="border: 0em;width: 220px;border-top: 1px solid rgb(233, 233, 233);margin: auto;margin-bottom: 15px;"></div>
+                        <p>观看免费内容</p>
+                        <p >观看付费内容</p>
+                        <p >源码以及PPT访问权限</p>
+                        <p >课件视频下载</p>
+                        <p >Stack专属频道技术支持</p>
+                        <p class="free">12次远程技术指导（1小时/次）</p>
+                        <a href="http://www.baidu.com"><input class="subscribe2" type="button" value="订阅" style="border: 0em;"/></a>
+                    </div>
+                    <div class="last">
+                        <p style="padding: 10px;margin-bottom: 0em;">Pro订阅</p>
+                        <p class="price">4998元/终身</p>
+                        <div style="border: 0em;width: 220px;border-top: 1px solid rgb(233, 233, 233);margin: auto;margin-bottom: 15px;"></div>
+                        <p>观看免费内容</p>
+                        <p >观看付费内容</p>
+                        <p >源码以及PPT访问权限</p>
+                        <p >课件视频下载</p>
+                        <p ></p>Stack专属频道技术支持</p>
+                        <p >12次远程技术指导（1小时/次）</p>
+                        <a href="http://www.baidu.com"><input class="subscribe1" type="button" value="订阅" /></a>
+                    </div>
+                    </div>
+                <div class="container" style="text-align: center;margin-top: 40px;padding-bottom: 55px;">
+                        <h2 class="container">专业的Web开发视频和文章课程</h2>  
+                    </div>
+                <div class="container" style="border: 0em;">
+                    <div class="comment">
+                        <p style="font-size: 20px;margin-bottom: 70px;">"非常喜欢这个系列的视频！"--专题[Ruby元实战编程]</p>
+                        <p><img style="float: left;" src="./g.jpg.png" />brbrbrb <br />Web Developer</p>
+                    </div>
+                    <div class="comment">
+                        <p style="font-size: 20px;margin-bottom: 70px;">"非常喜欢这个系列的视频！"--专题[Ruby元实战编程]</p>
+                        <p><img style="float: left;" src="./g.jpg.png" />brbrbrb <br />Web Developer</p>
+                    </div>
+                    <div class="comment">
+                        <p style="font-size: 20px;margin-bottom: 70px;">"非常喜欢这个系列的视频！"--专题[Ruby元实战编程]</p>
+                        <p><img style="float: left;" src="./g.jpg.png" />brbrbrb <br />Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer1">
+                <h1 style="color: white;font-weight: 500;padding: 20px;">对我们的网站或专题有想法？</h1>
+                <p style="font-size: small;color: white;">直接发邮件联系我们</p>
+                <p style="color: white;font-size: 30px;">service@eggman.tv</p>
+            </div>
+            <div style="background-color: rgb(48, 48, 48);">
+                <div class="footer2">
+                    <div class="root">
+                        <a href="http://www.baidu.com"><p class="root1">产品与支持</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">开源项目</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">APP</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">FAQ</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">所有课程</p></a>
+                    </div>
+                    <div class="root">
+                        <a href="http://www.baidu.com"><p class="root1">公司相关</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">博客</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">关于我们</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">服务条款</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">版权声明</p></a>
+                    </div>
+                    <div class="root">
+                        <a href="http://www.baidu.com"><p class="root1">联系我们</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">Email：service@</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">QQ群：336537638</p></a>
+                    </div>
+                    <div class="root">
+                        <a href="http://www.baidu.com"><img style="width: 100px;margin-top: 44px;" src="./eggman1.jpg"</a>
+                        <a href="http://www.baidu.com"><p class="root2">开源项目</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">APP</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">FAQ</p></a>
+                        <a href="http://www.baidu.com"><p class="root2">所有课程</p></a>
+                    </div>
+                    
+                </div>
+                <div class="root3">©EGGMAN.TV 2016 - 2020 豫ICP备14020199号-1</div>
+                
     </body>
 </html>
