@@ -1,0 +1,296 @@
+input,button,select,textarea{outline: none；}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:focus{text-decoration: none;}
+a:visited{text-decoration: none;}
+        .signin
+        {
+             color: white;
+             border-radius: 5px;
+             background-color: #0288d1;
+             float:right;
+             padding: 7px 30px;
+             text-align: center;
+             font-size: 14px;
+             font-weight: 500;
+             border: 0px;
+             box-shadow: 0 0 15px rgba(0,139,243,0.5);
+             cursor: pointer;
+             outline: none;
+        }
+        input.roll
+        {
+            color: #0288d1;
+             border-radius: 5px;
+             background-color: white;
+             float:right;
+             padding: 7px 30px;
+             text-align: center;
+             font-size: 14px;
+             font-weight: 500;
+             border: 0px;
+             box-shadow: 0 0 15px rgba(0,139,243,0.5);
+             cursor: pointer;
+             outline: none;
+        }
+        .login
+        {
+             color: black;
+             font-size: 14px;
+             font-weight: 500;
+             border: none;
+             background-color: transparent;
+             float:right;
+             padding: 7px 30px;
+             cursor: pointer;
+             outline: none
+        }
+        .search
+        {
+             padding: 5px 3px;
+             border-radius: 4px;
+             border: 0px;
+             background-color: rgba(0,0,0,0.04);
+             color: black;
+             font-weight: 500;
+             font-size: 14px;
+             float: right;
+             outline: none;
+             width: 88px;
+             height: 34px;
+        }
+        a.menu 
+        {
+             color: black;
+             display: inline-block;
+             padding: 20px;
+        }
+        a.menu:hover
+        {
+             border-bottom: 5px solid #0288d1 ;
+             color: #0288d1;
+             text-decoration: none;
+        }
+        div.menu
+        {
+            max-width: 80%;
+            border:0px;
+            height: 1px;
+            margin: auto;
+            background-color: #e6eaee;
+        }
+        div.roll
+        {
+             padding: 30px 15px 50px;
+        }
+        img.rolling
+        {
+            width: 170px;
+            height: 170px;
+        }
+        .lableright
+        {
+             float: right;
+             color: gray;
+             margin-top: 27px;
+             text-decoration: none;
+        }
+        .lableleft
+        {
+             color: #354052;
+             font-size: 32px;
+        }
+        div.s-inner
+        {
+             border: 1px solid rgb(233, 233, 233);
+             padding: 15px;
+             border-radius: 5px;
+             margin-top: 25px;
+             height: 250px;
+             
+        }
+        div.s-inner2 
+        {
+             border: 0px solid black;
+             overflow:;
+             height: 90px;
+        }
+        img.s-inner1
+        {
+             position: relative;
+             bottom: 30px;
+             right: 20px;
+             width: 65px;
+             border: 0em;
+             background-color: rgb(78, 78, 223);
+             border-radius: 5px;
+             float: right;
+        }
+        img.s-inner2 
+        {
+             background-color: #8dc2e4;
+             border: 0;
+             border-radius: 3px;
+             margin-top: 30px;
+             float: right;
+             width: 20px;
+             margin-left: 10px;
+        }
+        p.s-inner
+        {
+             font-size: small;
+             color: #707070;
+             line-height: 25px;
+        }
+        div.middle
+        {
+            border: 1px solid rgb(233, 233, 233);
+            height: 360px;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        td.article
+        {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: small;
+            height: 55px;
+            padding: 25px;
+        }
+        .recommend
+        {
+            width: 45%;
+            float: left;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        @media screen and (max-width: 765px) {
+            .recommend
+            {
+                width: 50%;
+                float: left;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        input.subscribe1 
+        {
+            border: 1px solid #707070;
+            border-radius: 4px;
+            padding: 10px 30px;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 20px;
+            cursor: pointer;
+            outline: none;
+        }
+        p.free 
+        {
+            color: rgb(233, 233, 233);
+        }
+        p.price 
+        {
+            color: #0288d1;
+            font-size: 32px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        div.last
+        {
+            border: 1px solid rgb(233, 233, 233);
+            height: 465px;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+        input.subscribe2
+        {
+            border: 1px solid #707070;
+            border-radius: 4px;
+            padding: 10px 30px;
+            background-color: #0288d1;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            outline: none;
+        }
+        p.root1 
+        {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 23px;
+            margin-top: 50px;
+            display: block;
+        }
+        p.root2 
+        {
+            color: rgb(168, 168, 168);
+            font-size: 10px;
+            margin-bottom: 23px;
+            display: block;
+        }
+        .nav
+        {
+            background-color: transparent;
+            border: 0ch;
+        }
+        .header
+        {
+            margin:20px 0;
+        }
+        .navbotton
+        {
+            margin-top: 15px;
+        }
+        .log 
+        {
+            width: 100px;
+            height: 33.3px;
+            float: left;
+            margin-top: 15px;
+        }
+        .drop-down
+        {
+            background-color: transparent;
+            border: 0;
+            box-shadow: 0em;
+        }
+        ul.drop-down
+        {
+            float: right;
+            padding: 8px;
+        }
+        .back
+        {
+            background-color: #0288d1; 
+        }
+        h1.roll
+        {
+            font-size: 36px;
+            font-weight: 500;
+            color: white;
+            padding: 15px 0px;
+        }
+        p.roll
+        {
+            color: white;
+        }
+        div.cardone
+        {
+            padding: 0 7px;
+        }
+        a.cardone
+        {
+            color: black;
+        }
+        p.cardone
+        {
+            font-size: 20px
+        }
+        
