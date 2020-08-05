@@ -4,13 +4,13 @@
         <meta charset="utf-8" />
         <title>Skylight丨Sign Up</title>
          <style>
-        a:link {text-decoration:none;}    /* 未被访问的链接 */
-        a:visited {text-decoration:none;} /* 已被访问的链接 */
-        a:hover {text-decoration:none;}   /* 鼠标指针移动到链接上 */
-        a:active {text-decoration:none;}  /* 正在被点击的链接 */
+        a:link {text-decoration:none;}    
+        a:visited {text-decoration:none;}
+        a:hover {text-decoration:none;}  
+        a:active {text-decoration:none;}  
         a.one:link {background-color:transparent}		
-        a.one:visited {background-color: transparent;}	/* 已被访问的链接 */
-        a.one:hover {background-color: #00adc4;}	/* 鼠标指针移动到链接上 */
+        a.one:visited {background-color: transparent;}
+        a.one:hover {background-color: #00adc4;}
         a.one:active {background-color: transparent;}	
         </style>
 <style type="text/css">
@@ -30,9 +30,7 @@
     {
       width: 100%;
       border: 0px solid black;
-      position: absolute;
-        left: 0;
-        bottom: 0;
+
     }
     div.footer 
     {
@@ -117,16 +115,17 @@
         }
         div.center
         {
-            position: absolute;
-            top: 10%;
-            bottom: 10%;
-            left: 26%;
-            right: 26%;
+            max-width: 1000px;
+            position: relative;
+            top: -200px;
+            left: auto;
+            right: auto;
             border:0px solid black;
             border-radius: 4px;
             background-color: rgb(255, 255, 255);
             box-shadow:0px 0px 10px rgb(206, 206, 206);
-            
+            padding: 50px;
+            margin: 20px auto;
         }
         h2.header 
         {
@@ -161,14 +160,14 @@
         input.center 
         {
             height: 45px;
-            width: 40%;
-            margin: 10px 30% 10px 30%;
+            width: 400px;
+            margin: 10px auto;
             border-radius: 4px;
             border: 1px solid gray;
             font-size: large;
             padding:5px;
             outline: none;
-            
+            margin-bottom: 20px;
         }
 </style>
     </head>
@@ -197,16 +196,20 @@
                 <input type="checkbox" name="yes/no" />        &nbsp;&nbsp;You agree to the terms of service and privacy statement
             </form>
             <p class="center">2. Choose a signup method</p>
-            <a href="https://www.skylight.io/signup"><input class="center" type="button" name="signup" style="border: 0px;text-align: center;background-color: #00adc4;font-weight: 900;border-radius: 30px;color: white;height: 55px;cursor: pointer;" value="SIGN UP WITH GITHUB" /></a>
+            <div style="text-align: center;">
+            <a href="https://www.skylight.io/signup">
+                <input class="center" type="button" name="signup" style="border: 0px;text-align: center;background-color: #00adc4;font-weight: 900;border-radius: 30px;color: white;height: 55px;cursor: pointer;" value="SIGN UP WITH GITHUB" />
+            </a></div>
             <br /><div class="hrline">
                 <div style="text-align: center;"><span style="background-color: white;white-space: pre;">  or  </span></div>
             </div><br />
+            <div style="text-align: center;">
             <form>
-                <input class="center" type="text" name="name" placeholder=" Enter your name" />
-                <input class="center" type="text" name="email-address" placeholder=" Enter your email address" />
-                <input class="center" type="text" name="password" placeholder=" Creat a password" />
+                <input class="center" type="text" name="name" placeholder=" Enter your name" /><br />
+                <input class="center" type="text" name="email-address" placeholder=" Enter your email address" /><br />
+                <input class="center" type="text" name="password" placeholder=" Creat a password" /><br />
                 <input class="center" type="button" name="signup" style="border: 0px;text-align: center;background-color: #00adc4;font-weight: 900;border-radius: 30px;color: white;height: 55px;" value="SIGN UP WITH GITHUB" />
-            </form>
+            </form></div>
     </div>
     </body>
     <body style="background-color: #e8fcff;">

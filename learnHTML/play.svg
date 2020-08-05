@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Start Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="音频课程---详情" transform="translate(-836.000000, -708.000000)" fill="#2CACF5">
+            <g id="Header" transform="translate(1.000000, 0.000000)">
+                <g id="Table" transform="translate(149.000000, 422.000000)">
+                    <g id="Base">
+                        <g id="Group-16-Copy-2" transform="translate(0.000000, 285.000000)">
+                            <g id="Group-9" transform="translate(30.000000, 0.000000)">
+                                <path d="M672.185,13.5175 L665.7905,17.3995 C665.3435,17.6695 664.979,17.4625 664.979,16.9375 L664.979,9.1135 C664.979,8.587 665.3435,8.38 665.7905,8.6515 L672.185,12.532 C672.632,12.8035 672.632,13.246 672.185,13.5175 M668,4 C663.029,4 659,8.029 659,13 C659,17.971 663.029,22 668,22 C672.9695,22 677,17.971 677,13 C677,8.029 672.9695,4 668,4 M668,25 C661.3715,25 656,19.627 656,13 C656,6.373 661.3715,1 668,1 C674.627,1 680,6.373 680,13 C680,19.627 674.627,25 668,25" id="Start-Icon"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

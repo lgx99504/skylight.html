@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L32.9930877,0 C35.758329,0 38,2.23520515 38,5.00691225 L38,38 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页---未登录" transform="translate(-819.000000, -3525.000000)">
+            <g id="Plans-&amp;-Pricing" transform="translate(312.000000, 3525.000000)">
+                <g id="option-02" transform="translate(272.000000, 0.000000)">
+                    <g id="Group-16" transform="translate(235.000000, 0.000000)">
+                        <g id="Rectangle-27">
+                            <use fill="#F6A623" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#DE9A29" stroke-width="1" d="M1.20710678,0.5 L37.5,36.7928932 L37.5,5.00691225 C37.5,2.51368058 35.4845216,0.5 32.9930877,0.5 L1.20710678,0.5 Z"></path>
+                        </g>
+                        <polygon id="Star-1" fill="#EFFF5B" points="27 14 23.4732885 15.854102 24.1468305 11.927051 21.2936609 9.14589803 25.2366442 8.57294902 27 5 28.7633558 8.57294902 32.7063391 9.14589803 29.8531695 11.927051 30.5267115 15.854102"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
